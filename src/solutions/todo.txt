@@ -1,0 +1,7 @@
+how to setup the task for forward generation:
+
+the task of generating loop invriants:
+
+given a program while c p # c: condition; p: loop statements;
+generate loop invariant I:state->Prop to build a theorem in the form of 
+{ I s /\ c s } p { I s }
